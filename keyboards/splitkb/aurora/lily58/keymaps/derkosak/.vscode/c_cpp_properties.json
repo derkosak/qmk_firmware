@@ -3,7 +3,9 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "~/qmk_firmware/lib/**",
+                "~/qmk_firmware/lib/quantum/keymap_extras/**"
             ],
             "defines": [],
             "macFrameworkPath": [
